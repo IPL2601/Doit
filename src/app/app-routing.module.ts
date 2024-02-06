@@ -5,11 +5,11 @@ import { LoginComponent } from './login/login.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'login',
+    redirectTo: 'about-page',
     pathMatch: 'full'
   },
   {
-    path: '/InicioSesion',
+    path: 'InicioSesion',
     component: LoginComponent,
     pathMatch: 'full'
   }
