@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { LoginComponent } from './login/login.component';
     AppComponent,
     AboutPageComponent,
     LoginComponent,
+    MainPageComponent,
     
   ],
   imports: [
