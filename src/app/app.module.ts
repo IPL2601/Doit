@@ -7,6 +7,7 @@ import { AboutPageComponent } from './about-page/about-page.component';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { NavbarComponent } from './main-page/navbar/navbar.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { MainPageComponent } from './main-page/main-page.component';
     AboutPageComponent,
     LoginComponent,
     MainPageComponent,
+    NavbarComponent,
     
   ],
   imports: [
